@@ -2091,7 +2091,7 @@ export interface CompanyPickerItem {
  * Vendor Can be either Member or Company Reference
  */
 export interface CompanyReference {
-    "id"?: number;
+    "id": number;
     "identifier"?: string;
     "name"?: string;
 
